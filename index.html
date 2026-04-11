@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Koda Desenvolvimento Web | Landing Pages e Sites Profissionais</title>
+    <meta
+      name="description"
+      content="A Koda cria landing pages, sites e cardapios digitais para atrair clientes e fechar mais vendas no WhatsApp."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="ambient-glow glow-one"></div>
+    <div class="ambient-glow glow-two"></div>
+
+    <header class="hero" id="inicio">
+      <nav class="topbar container">
+        <a class="brand" href="#inicio" aria-label="Koda Desenvolvimento Web">
+          <span class="brand-main">KODA</span>
+          <span class="brand-sub">DESENVOLVIMENTO WEB</span>
+        </a>
+        <a class="cta cta-outline" href="https://wa.me/5561999493148" target="_blank" rel="noopener noreferrer"
+          >Falar no WhatsApp</a
+        >
+      </nav>
+
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <p class="eyebrow">Projetos prontos para anunciar</p>
+          <h1>
+            Transforme visitas em contatos e contatos em vendas com a Koda.
+          </h1>
+          <p>
+            Criamos paginas comerciais de alta conversação com design profissional,
+            estrutura estrategica e entrega rapida para sua empresa vender todos
+            os dias.
+          </p>
+          <div class="proof-list">
+            <span>Entrega agil</span>
+            <span>Design premium</span>
+            <span>Foco em conversação</span>
+          </div>
+
+          <div class="campaign-box reveal delay-1" id="campanhas">
+            <p class="campaign-title">Escolha sua campanha:</p>
+            <div class="campaign-options" role="tablist" aria-label="Campanhas Koda">
+              <button class="campaign-option active" data-campaign="landing" type="button">
+                Landing Page<br />R$ 1.000,00
+              </button>
+              <button class="campaign-option" data-campaign="site" type="button">
+                Site Completo<br />R$ 2.000,00
+              </button>
+              <button class="campaign-option" data-campaign="menu" type="button">
+                Cardapio Digital<br />R$ 1.000,00
+              </button>
+            </div>
+            <p class="campaign-note" id="campaign-note">
+              Oferta ideal para captar mais clientes com uma pagina focada em
+              anuncios e WhatsApp.
+            </p>
+          </div>
+
+          <div class="hero-actions">
+            <a class="cta" id="hero-cta" href="https://wa.me/5561999493148?text=Ola%2C%20quero%20uma%20landing%20page%20da%20Koda." target="_blank" rel="noopener noreferrer"
+              >Solicitar proposta</a
+            >
+            <a class="cta cta-ghost" href="#portfolio">Ver portfolio</a>
+          </div>
+        </div>
+
+        <div class="hero-media reveal delay-1">
+          <img
+            src="img/WhatsApp Image 2026-04-11 at 19.45.55.jpeg"
+            alt="Promocao da Koda para landing page e cardapio digital"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="services container" id="servicos">
+        <div class="section-head reveal">
+          <p class="eyebrow">O que entregamos</p>
+          <h2>Estrategia, visual e estrutura para o seu cliente agir</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <h3>Landing Pages para Trafego Pago</h3>
+            <p>
+              Pagine pronta para anuncios com secoes persuasivas, prova social e
+              botao de contato em destaque.
+            </p>
+          </article>
+          <article class="service-card reveal delay-1">
+            <h3>Sites Comerciais e Ecommerce</h3>
+            <p>
+              Sua marca com autoridade digital, navegacao clara e estrutura para
+              gerar pedidos e oportunidades.
+            </p>
+          </article>
+          <article class="service-card reveal delay-2">
+            <h3>Cardapio Digital para Restaurantes</h3>
+            <p>
+              Solucao moderna para exibir produtos, aumentar ticket medio e
+              facilitar pedidos pelo celular.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="portfolio container" id="portfolio">
+        <div class="section-head reveal">
+          <p class="eyebrow">Projeto em destaque</p>
+          <h2>Case real desenvolvido para cliente</h2>
+        </div>
+
+        <article class="project-card reveal">
+          <p class="project-label">Cliente Koda</p>
+          <h3>Landing page comercial publicada</h3>
+          <p>
+            Projeto feito para cliente com foco em posicionamento da marca,
+            apresentacao de servicos e conversação em contato.
+          </p>
+          <a
+            class="cta"
+            href="https://bit.ly/4eblEhq"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver projeto da cliente
+          </a>
+        </article>
+      </section>
+
+      <section class="offer container" id="contato">
+        <div class="offer-card reveal">
+          <p class="eyebrow">Atendimento imediato</p>
+          <h2>Receba uma proposta personalizada para o seu projeto</h2>
+          <p>
+            Preencha os dados abaixo e nossa equipe entra em contato para montar
+            a melhor estrategia digital para o seu negocio.
+          </p>
+
+          <form class="lead-form" id="lead-form">
+            <label for="nome">Nome</label>
+            <input id="nome" name="nome" type="text" required placeholder="Seu nome" />
+
+            <label for="telefone">WhatsApp</label>
+            <input id="telefone" name="telefone" type="tel" required placeholder="(61) 99999-9999" />
+
+            <label for="servico">Qual servico voce quer?</label>
+            <select id="servico" name="servico" required>
+              <option value="">Selecione</option>
+              <option value="Landing Page">Landing Page</option>
+              <option value="Site Completo">Site Completo</option>
+              <option value="Cardapio Digital">Cardapio Digital</option>
+            </select>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="4"
+              placeholder="Me conte rapidamente sobre seu projeto"
+            ></textarea>
+
+            <button class="cta lead-submit" type="submit">Quero minha proposta agora</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Koda Desenvolvimento Web • 2026 • Todos os direitos reservados</p>
+      </div>
+    </footer>
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/5561999493148?text=Ola%2C%20vim%20pela%20landing%20page%20da%20Koda%20e%20quero%20mais%20informacoes."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Conversar no WhatsApp"
+    >
+      WhatsApp
+    </a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
