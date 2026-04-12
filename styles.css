@@ -80,19 +80,20 @@ body {
 
 .brand-main {
   font-family: "Sora", sans-serif;
-  font-size: clamp(1.9rem, 4vw, 2.7rem);
+  font-size: clamp(1.95rem, 4.2vw, 2.9rem);
   font-weight: 800;
-  letter-spacing: 0.04em;
-  color: #ecf5ff;
-  text-shadow: 0 10px 26px rgba(0, 144, 255, 0.34);
+  letter-spacing: 0.03em;
+  color: #f7fbff;
+  text-shadow: 0 10px 26px rgba(0, 144, 255, 0.28);
 }
 
 .brand-sub {
   margin-top: 4px;
-  font-size: clamp(0.62rem, 1.2vw, 0.82rem);
-  letter-spacing: 0.2em;
-  color: #84c4ff;
-  font-weight: 700;
+  font-family: "Outfit", sans-serif;
+  font-size: clamp(0.68rem, 1.2vw, 0.92rem);
+  letter-spacing: 0.12em;
+  color: rgba(247, 251, 255, 0.94);
+  font-weight: 500;
 }
 
 .hero-content {
@@ -472,6 +473,11 @@ section {
 
   .topbar {
     gap: 12px;
+  }
+
+  .brand-sub {
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
   }
 
   .cta {
