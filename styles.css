@@ -78,6 +78,14 @@ body {
   line-height: 1;
 }
 
+.brand-logo {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
 .brand-main {
   font-family: "Sora", sans-serif;
   font-size: clamp(1.95rem, 4.2vw, 2.9rem);

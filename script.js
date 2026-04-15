@@ -68,16 +68,17 @@ if (leadForm) {
     const servico = document.getElementById('servico')?.value.trim() || '';
     const mensagem = document.getElementById('mensagem')?.value.trim() || '';
 
-    const texto = [
-      'Ola, vim pela landing page da Koda e quero uma proposta.',
+    const subject = 'Contato via landing page Koda';
+    const body = [
+      'Olá, recebi informações pelo formulário de atendimento imediato da Koda.',
       `Nome: ${nome}`,
       `WhatsApp: ${telefone}`,
-      `Servico: ${servico || 'Nao informado'}`,
-      `Mensagem: ${mensagem || 'Nao informada'}`
+      `Serviço desejado: ${servico || 'Não informado'}`,
+      `Mensagem: ${mensagem || 'Não informada'}`
     ].join('\n');
 
-    const whatsappUrl = `https://wa.me/5561999493148?text=${encodeURIComponent(texto)}`;
-    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+    const mailtoUrl = `mailto:kodadesenvolvimentoweb@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailtoUrl;
     leadForm.reset();
   });
 }
